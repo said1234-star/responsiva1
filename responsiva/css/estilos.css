@@ -1,0 +1,96 @@
+/* ==========================================
+   ESTILOS PERSONALIZADOS - FUNDACIÓN CDTS
+   ========================================== */
+
+/* Fondo general de la página */
+body {
+  background-color: #0b132b;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333;
+}
+
+/* Contenedor principal con fondo blanco y esquinas redondeadas */
+.container {
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Encabezado */
+.encabezado {
+  background: #0b132b;
+  padding: 15px;
+  text-align: left;
+}
+
+.encabezado img {
+  max-height: 60px;
+  width: auto;
+  object-fit: contain;
+}
+
+/* Menú de navegación */
+.menu {
+  background-color: #0b132b;
+  padding: 10px 0;
+  border-top: 1px solid #1c2541;
+  border-bottom: 2px solid #1c2541;
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  display: block;
+  padding: 5px 0;
+  transition: color 0.2s ease-in-out;
+}
+
+.menu a:hover {
+  color: #6fffe9;
+  text-decoration: underline;
+}
+
+/* Sección de Objetivos */
+h3 {
+  color: #1f2833;
+  font-weight: bold;
+  padding: 20px 20px 10px 20px;
+  margin: 0;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+/* Imágenes de la galería de objetivos para mantener alineación limpia */
+.row.g-0 img.img-fluid {
+  height: 150px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Textos descriptivos */
+p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #4f5d75;
+  padding: 0 20px;
+}
+
+/* Imagen de contacto / opinión lateral */
+.col-12.col-md-4 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Pie de página */
+.pie img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
